@@ -28,7 +28,7 @@ dependencies {
     implementation 'org.apache.groovy:groovy:4.0.12'
 //    implementation 'org.apache.groovy:groovy-test:4.0.12'
 //    implementation 'org.apache.groovy:groovy-macro:4.0.12'
-//    implementation 'org.apache.groovy:groovy-sql:4.0.12'
+    implementation 'org.apache.groovy:groovy-sql:4.0.12'
 //    implementation 'org.apache.groovy:groovy-ginq:4.0.12'
 //    implementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
     implementation 'org.duckdb:duckdb_jdbc:0.8.0'
