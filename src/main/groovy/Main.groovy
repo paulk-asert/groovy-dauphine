@@ -46,12 +46,12 @@ println GQ {
 +---------+--------------------------------------+---------+--------+
 | Country | Riders                               | Places  | Count  |
 +---------+--------------------------------------+---------+--------+
-| 🇦🇺    | BEN O'CONNOR, JAI HINDLEY, JACK HAIG | 3, 4, 5 | ██████ |
-| 🇩🇰    | JONAS VINGEGAARD                     | 1       | ██     |
-| 🇳🇴    | TORSTEIN TRÆEN                       | 8       | ██     |
-| 🇿🇦    | LOUIS DU BOUISSON MEINTJES           | 7       | ██     |
-| 🇬🇧    | ADAM YATES                           | 2       | ██     |
-| 🇪🇸    | CARLOS RODRIGUEZ CANO                | 9       | ██     |
-| 🇫🇷    | GUILLAUME MARTIN, JULIAN ALAPHILIPPE | 6, 10   | ████   |
+| 🇦🇺      | BEN O'CONNOR, JAI HINDLEY, JACK HAIG | 3, 4, 5 | ██████ |
+| 🇩🇰      | JONAS VINGEGAARD                     | 1       | ██     |
+| 🇳🇴      | TORSTEIN TRÆEN                       | 8       | ██     |
+| 🇿🇦      | LOUIS DU BOUISSON MEINTJES           | 7       | ██     |
+| 🇬🇧      | ADAM YATES                           | 2       | ██     |
+| 🇪🇸      | CARLOS RODRIGUEZ CANO                | 9       | ██     |
+| 🇫🇷      | GUILLAUME MARTIN, JULIAN ALAPHILIPPE | 6, 10   | ████   |
 +---------+--------------------------------------+---------+--------+
 */
