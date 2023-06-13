@@ -16,6 +16,7 @@
 
 plugins {
     id 'groovy'
+    id 'application'
     id 'com.github.ben-manes.versions' version '0.47.0'
     //id 'com.autonomousapps.dependency-analysis' version '1.19.0' // comment out if on JDK8
 }
@@ -31,6 +32,10 @@ dependencies {
     implementation 'org.duckdb:duckdb_jdbc:0.8.0'
 }
 
-//test {
-//    useJUnitPlatform()
+//javaexec {
+//    workingDir = 'src/main/groovy'
 //}
+
+application {
+    mainClass = 'Main'
+}

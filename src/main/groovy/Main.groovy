@@ -7,7 +7,7 @@ Sql.withInstance('jdbc:duckdb:', 'org.duckdb.DuckDBDriver') { sql ->
         rpad(string_agg(Rider, ', '), 40, ' ') as Riders,
         rpad(string_agg(Place, ', '), 10, ' ') as Places,
         bar(count(Country), 0, 4, 30) as Count
-        FROM 'topten.csv' GROUP BY Country""") { row ->
+        FROM 'src/main/groovy/topten.csv' GROUP BY Country""") { row ->
         row.with {
             println "$Country       $Riders$Places$Count"
         }
@@ -25,7 +25,7 @@ Country  Riders                                  Places    Count
 🇪🇸       CARLOS RODRIGUEZ CANO                   9         ███████▌
 */
 
-var f = 'topten.csv' as File
+var f = 'src/main/groovy/topten.csv' as File
 var lines = f.readLines()*.split(',')
 var cols = lines[0].size()
 var rows = lines[1..-1].collect{row ->
